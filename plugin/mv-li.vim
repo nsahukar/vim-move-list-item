@@ -3,7 +3,7 @@ function! MoveEm(up, position)
 	let saved_cursor = getpos(".")
 	let previous_blank_line = search('^$', 'bn')
 	if a:up
-		let l:pos = a:posiiton - 1
+		let l:pos = a:position - 1
 	else
 		let l:pos = a:position
 	endif
